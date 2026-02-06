@@ -30,13 +30,13 @@ export function Feature({
 
   return (
     <div
-      className={`flex flex-col bg-muted p-6 gap-0.5 ${typeClass} ${className}`.trim()}
+      className={`flex flex-col bg-muted p-6 gap-2 rounded-3xl ${typeClass} ${className}`.trim()}
     >
-        <div className="flex gap-0.5 items-center">
-          {heading && <Heading level={4} className={`text-muted-foreground ${headingClass}`}>{heading}</Heading>}
+        <div className="flex gap-2.5 items-center">
+          {heading && <Heading level={4} className={`text-muted-foreground text-4xl ${headingClass}`}>{heading}</Heading>}
           {headingIcon && <span className="mb-6">{headingIcon}</span>}
         </div>
-        {description && <Paragraph size="lg" className="flex-1 mb-6">{description}</Paragraph>}
+        {description && <Paragraph size="md" className="flex-1">{description}</Paragraph>}
     </div>
   );
 }

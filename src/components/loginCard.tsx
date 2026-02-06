@@ -38,12 +38,12 @@ export function LoginCard({
 
   return (
     <div
-      className={`flex flex-col bg-card p-8 ${typeClass} ${shadowClass} ${className}`.trim()}
+      className={`flex flex-col bg-card p-12 gap-8 rounded-3xl ${typeClass} ${shadowClass} ${className}`.trim()}
     >
         <div className={`flex flex-col`}>
-          {heading && (<Heading level={4} className={headingClass}>{heading}</Heading>)}
+          {heading && (<Heading level={4} className={`!mb-0 !text-xl font-medium ${headingClass}`}>{heading}</Heading>)}
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-6">
             <Input size="xl" placeholder="Email"/>
             <Input size="xl" placeholder="Password"/>
             <FieldGroup className="mx-auto w-56">

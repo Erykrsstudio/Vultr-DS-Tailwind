@@ -6,8 +6,8 @@ type CardSize = "sm" | "md";
 type CardType = "default" | "primary";
 
 const sizeClasses: Record<CardSize, string> = {
-  sm: "p-6",
-  md: "p-8",
+  sm: "p-8 rounded-3xl",
+  md: "p-12 rounded-3xl",
 };
 
 const typeClasses: Record<CardType, string> = {
@@ -52,7 +52,7 @@ export function Card({
     >
       {(heading || caption) && (
         <div className={`flex flex-col ${!description ? "flex-1" : ""}`}>
-          {caption && <Heading level={6} className={`font-medium ${captionClass}`.trim()}>{caption}</Heading>}
+          {caption && <Heading level={6} className={`font-light ${captionClass}`.trim()}>{caption}</Heading>}
           {heading && (
             <Heading
               level={4}

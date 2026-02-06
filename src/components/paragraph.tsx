@@ -4,7 +4,7 @@ type ParagraphSize = "sm" | "md" | "lg" | "xl" | "2xl";
 
 const sizeClasses: Record<ParagraphSize, string> = {
   sm: "",
-  md: "",
+  md: "text-base",
   lg: "text-lg",
   xl:"text-xl",
   "2xl": "text-2xl",

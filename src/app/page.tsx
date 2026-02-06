@@ -37,8 +37,7 @@ export default function Home() {
                 </div>
                 <div className="grid grid-cols-3 gap-6">
                     <Card
-                      headingClass="!text-4xl"
-                      captionClass="!text-2xl"
+                      captionClass="!text-3xl"
                       heading="Introducing New Vultr VX1™ Compute Plans Price-to-Performance"
                       caption="Announcement"
                       description="IT leaders are under increasing pressure. Cloud costs continue to rise, while budgets stagnate or shrink. New AI initiatives are under the microscope, requiring new resources and focus, while geographic derisking plans."
@@ -52,6 +51,8 @@ export default function Home() {
                     <div className="grid grid-cols-2 grid-rows-2 col-span-2 gap-6">
                         <Card
                           shadow
+                          captionClass="!text-base"
+                          headingClass="!text-2xl"
                           size="sm"
                           heading="High-Performance Cloud GPU Solutions"
                           caption="Vultr VX1™ Cloud Compute"
@@ -63,6 +64,8 @@ export default function Home() {
                         </Card>
                         <Card
                           shadow
+                          captionClass="!text-base"
+                          headingClass="!text-2xl"
                           size="sm"
                           heading="High-Performance Cloud GPU Solutions"
                           caption="Vultr VX1™ Cloud Compute"
@@ -74,6 +77,8 @@ export default function Home() {
                         </Card>
                         <Card
                           shadow
+                          captionClass="!text-base"
+                          headingClass="!text-2xl"
                           size="sm"
                           heading="High-Performance Cloud GPU Solutions"
                           caption="Vultr VX1™ Cloud Compute"
@@ -85,6 +90,8 @@ export default function Home() {
                         </Card>
                         <Card
                           shadow
+                          captionClass="!text-base"
+                          headingClass="!text-2xl"
                           size="sm"
                           heading="High-Performance Cloud GPU Solutions"
                           caption="Vultr VX1™ Cloud Compute"
